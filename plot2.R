@@ -1,4 +1,3 @@
-setwd("/data/mapologo/Dropbox/MOOCs/Exploratory Data Analysis")
 data <- read.csv(unz("household_power_consumption.zip", "household_power_consumption.txt"),
                  sep=";",
                  as.is=TRUE)
